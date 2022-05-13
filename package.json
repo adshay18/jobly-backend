@@ -9,13 +9,16 @@
 		"test": "jest -i"
 	},
 	"jest": {
-		"testPathIgnorePatterns": [ "/node_modules/", "config.js" ]
+		"testPathIgnorePatterns": [
+			"/node_modules/",
+			"config.js"
+		]
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"bcrypt": "^5.0.1",
+		"bcryptjs": "^2.4.3",
 		"body-parser": "^1.19.0",
 		"colors": "^1.4.0",
 		"cors": "^2.8.5",
